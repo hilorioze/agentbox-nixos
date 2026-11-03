@@ -1,0 +1,16 @@
+# build artifacts
+/result
+/result-*
+
+# development environment (auto-generated)
+/.devenv/
+/.direnv/
+/.pre-commit-config.yaml
+
+# opentofu working directories and the previous state kept by `tofu apply`
+.terraform/
+terraform.tfstate.backup
+
+# devenv pins the opentofu providers through `languages.opentofu.package`
+.terraform.lock.hcl
+

@@ -1,0 +1,35 @@
+stores:
+  yaml:
+    indent: 2
+
+keys:
+  - &age_host CHANGEME
+
+  # keep-sorted start
+  - &age_home_agent CHANGEME
+  - &age_home_hilorioze CHANGEME
+  # keep-sorted end
+
+  - &pgp_admin F0C7E37B24106ED3EFFB1CED12C04ED901029563!
+
+creation_rules:
+  - path_regex: ^host/secrets\.yaml$
+    key_groups:
+      - age: [*age_host]
+        pgp: [*pgp_admin]
+
+  # keep-sorted start block=yes newline_separated=yes
+  - path_regex: ^home/agent/secrets\.yaml$
+    key_groups:
+      - age:
+          - *age_home_agent
+        pgp:
+          - *pgp_admin
+
+  - path_regex: ^home/hilorioze/secrets\.yaml$
+    key_groups:
+      - age:
+          - *age_home_hilorioze
+        pgp:
+          - *pgp_admin
+  # keep-sorted end

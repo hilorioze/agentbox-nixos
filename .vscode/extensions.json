@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "mkhl.direnv",
+    "jnoortheen.nix-ide",
+    "opentofu.vscode-opentofu"
+  ]
+}
