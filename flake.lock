@@ -1093,11 +1093,11 @@
         "stylix": "stylix"
       },
       "locked": {
-        "lastModified": 1795374443,
-        "narHash": "sha256-yGMXYfBgUGALyKWsY+a27cNS2ZBGfnYtEKx7eZx1Evw=",
+        "lastModified": 1795378811,
+        "narHash": "sha256-2u/8+xe3D++Vm0XObRgaIlp9Dy/EkPkbabIPFIFNaII=",
         "owner": "hilorioze",
         "repo": "nixos-dotfiles",
-        "rev": "6bbc03bc3927c46dcd24f2866180a9605588fd19",
+        "rev": "35341366aa12c3b036b87f7a913bb6a14e293bd6",
         "type": "github"
       },
       "original": {
